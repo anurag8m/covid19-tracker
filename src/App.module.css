@@ -1,0 +1,19 @@
+body {
+  background-color: #e2d9d9;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  width: 270px;
+  height: auto;
+  margin-top: 20px;
+}
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10px;
+  }
+}
